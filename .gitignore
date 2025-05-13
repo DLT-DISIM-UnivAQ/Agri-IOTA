@@ -1,3 +1,7 @@
+# IOTA libraries
+sources/cryptoauthlib
+Move.lock
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
