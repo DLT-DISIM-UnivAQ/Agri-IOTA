@@ -63,5 +63,6 @@ try:
                         log_sensor_data(sensor_id, humidity, temperature, soil_temperature, timestamp)
                     except Exception as e:
                         print(f"Error processing the received data: {e}")
+            time.sleep(0.1)
 except serial.SerialException as e:
     print(f"Connection error: {e}")
